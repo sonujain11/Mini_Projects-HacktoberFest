@@ -1,0 +1,70 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: sans-serif;
+    width:300px;
+    height:330px;
+    
+}
+.card{
+    height: 330px;
+    margin:50px;
+    width:300px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden; 
+    
+}   
+.intro{
+    height: 0px;
+    width: 300px;
+    padding: 6px;
+    bottom: 363px;
+    box-sizing: border-box;
+    position: absolute;
+    color: black;
+
+}
+p{
+    margin:0px;
+    opacity:3;
+    visibility: hidden;
+    
+    
+
+}
+.card:hover{
+    cursor: pointer; 
+    visibility: visible;
+ 
+
+}
+img{
+    opacity: 1;
+}
+img:hover{
+    opacity: 0.5;
+    
+
+}
+.card:hover .intro{
+    height:103px;
+    bottom:333px;
+    background: aliceblue;
+    visibility: visible;
+    opacity: 1;
+    width: -0px;;
+    transition: width 1s;
+    
+}
+.card:hover p{
+    visibility: visible;
+    font-weight: bold;
+    color: black ;
+
+}
+.Wrapper{
+    display: flex;
+
+
+
+}
